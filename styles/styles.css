@@ -6,10 +6,14 @@
     --primary-backgroundcolor: #F5F5F5;
     --secondary-backgroundcolor: #F5F4FA;
     --button-color: #2196F3;
+    --logo-color: #000000;
+    --hero-text-color: #FFFFFF;
+    --hero-background-color: #2F303A;
 }
 body {
 background-color: var(--primary-backgroundcolor);
 color: var(--primary-text-color);
+font-family: roboto;
 }
 
 ul {
@@ -19,7 +23,7 @@ ul {
 color: var(--nav-text-color);
 }
 .studio {
-    color: #000000;
+    color: var(--logo-color);
 }
 
 /* site-nav */
@@ -34,12 +38,12 @@ color: var(--nav-text-color);
 }
 /* Main */
 .hero {
-    color: #FFFFFF;
+    color: var(--hero-text-color);
     background-color: #2F303A;
 }
 .button {
     cursor: pointer;
-    color: #FFFFFF;
+    color: var(--hero-text-color);
     background-color:var(--button-color);
 }
 .advantages-list {
@@ -62,8 +66,30 @@ color: var(--primary-text-color);
 }
 /* footer */
 .footer {
-    background-color: #2F303A;
+    background-color: var(--hero-background-color);
 }
 .studio-footer {
-    color: #FFFFFF;
+    color: var(--hero-text-color);
+}
+
+.address-footer {
+    color:var(--hero-text-color);
+}
+.mail-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+.tel-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+.address-footer:hover,
+.address-footer:focus {
+    color: var(--nav-text-color)
+}
+.mail-footer:hover,
+.mail-footer:focus {
+    color: var(--nav-text-color)
+}
+.tel-footer:hover,
+.tel-footer:focus {
+    color: var(--nav-text-color);
 }
