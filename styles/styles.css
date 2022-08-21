@@ -11,3 +11,59 @@ body {
 background-color: var(--primary-backgroundcolor);
 color: var(--primary-text-color);
 }
+
+ul {
+    list-style: none;
+}
+.logo {
+color: var(--nav-text-color);
+}
+.studio {
+    color: #000000;
+}
+
+/* site-nav */
+
+.site-nav .link {
+    color: var(--primary-text-color)
+}
+.site-nav .link:hover,
+.site-nav .link:focus
+{
+color: var(--nav-text-color);
+}
+/* Main */
+.hero {
+    color: #FFFFFF;
+    background-color: #2F303A;
+}
+.button {
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color:var(--button-color);
+}
+.advantages-list {
+    color: var(--title-text-color);
+}
+.advantages-text {
+    color: var(--undertitle-text-color);
+}
+.h2-title {
+    color: var(--primary-text-color);
+}
+.team-section {
+    background-color: var(--secondary-backgroundcolor);
+}
+.team-list {
+color: var(--primary-text-color);
+}
+.team-text {
+    color: var(--undertitle-text-color);
+}
+/* footer */
+.footer {
+    background-color: #2F303A;
+}
+.studio-footer {
+    color: #FFFFFF;
+}
