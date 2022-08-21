@@ -13,7 +13,7 @@
 body {
 background-color: var(--primary-backgroundcolor);
 color: var(--primary-text-color);
-font-family: roboto;
+font-family: 'Roboto', sans-serif;
 }
 
 ul {
@@ -21,6 +21,11 @@ ul {
 }
 .logo {
 color: var(--nav-text-color);
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
 }
 .studio {
     color: var(--logo-color);
@@ -30,6 +35,10 @@ color: var(--nav-text-color);
 
 .site-nav .link {
     color: var(--primary-text-color)
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus
@@ -41,28 +50,72 @@ color: var(--nav-text-color);
     color: var(--hero-text-color);
     background-color: #2F303A;
 }
+.hero-title {
+    color: var(--hero-text-color);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+
 .button {
     cursor: pointer;
     color: var(--hero-text-color);
     background-color:var(--button-color);
+    font-family: 'Roboto';
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
 }
 .advantages-list {
     color: var(--title-text-color);
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 }
 .advantages-text {
     color: var(--undertitle-text-color);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
 }
+
 .h2-title {
     color: var(--primary-text-color);
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
 }
 .team-section {
     background-color: var(--secondary-backgroundcolor);
 }
 .team-list {
 color: var(--primary-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19px;
+text-align: center;
+letter-spacing: 0.03em;
 }
 .team-text {
     color: var(--undertitle-text-color);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
 }
 /* footer */
 .footer {
@@ -70,16 +123,37 @@ color: var(--primary-text-color);
 }
 .studio-footer {
     color: var(--hero-text-color);
+    font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
 }
 
 .address-footer {
     color:var(--hero-text-color);
+    font-style: normal;
+   font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
 }
 .mail-footer {
     color: rgba(255, 255, 255, 0.6);
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
 }
+
 .tel-footer {
     color: rgba(255, 255, 255, 0.6);
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
 }
 .address-footer:hover,
 .address-footer:focus {
