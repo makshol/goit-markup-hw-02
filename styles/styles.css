@@ -9,6 +9,7 @@
     --logo-color: #000000;
     --hero-text-color: #FFFFFF;
     --hero-background-color: #2F303A;
+    --picture-background-color:#EEEEEE;
 }
 body {
 background-color: var(--primary-backgroundcolor);
@@ -34,11 +35,11 @@ letter-spacing: 0.03em;
 /* site-nav */
 
 .site-nav .link {
-    color: var(--primary-text-color)
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus
@@ -72,7 +73,27 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
+}
 
+.button-portfolio {
+    cursor: pointer;
+    color: var(--primary-text-color);
+    background-color:var(--secondary-backgroundcolor);
+    font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+line-height: 1.88;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.button-portfolio:hover,
+.button-portfolio:focus
+{
+color: var(--hero-text-color);
+background-color: var(--nav-text-color);
+}
+.image-portfolio {
+    background-color: url(/images/portfolio/our-people.jpg) 
 }
 .advantages-list {
     color: var(--title-text-color);
@@ -105,7 +126,7 @@ letter-spacing: 0.03em;
 color: var(--primary-text-color);
 font-weight: 500;
 font-size: 16px;
-line-height: 1.19px;
+line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
 }
@@ -117,6 +138,21 @@ line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
 }
+.portfolio-title {
+ font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--primary-text-color);
+}
+.portfolio-text {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color:var(--undertitle-text-color);
+}
+
 /* footer */
 .footer {
     background-color: var(--hero-background-color);
