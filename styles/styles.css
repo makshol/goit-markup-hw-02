@@ -15,6 +15,8 @@ body {
 background-color: var(--primary-backgroundcolor);
 color: var(--primary-text-color);
 font-family: 'Roboto', sans-serif;
+font-size: 14px;
+letter-spacing: 0.03em;
 }
 
 ul {
@@ -26,10 +28,11 @@ font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
-letter-spacing: 0.03em;
+text-decoration: none
 }
 .studio {
     color: var(--logo-color);
+    text-decoration: none
 }
 
 /* site-nav */
@@ -37,15 +40,35 @@ letter-spacing: 0.03em;
 .site-nav .link {
     color: var(--primary-text-color);
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
+        line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
+
+.link-studio {
+    color: var(--nav-text-color);
+    font-weight: 500;
+        line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus
 {
 color: var(--nav-text-color);
 }
+.url-address {
+    color: var(--undertitle-text-color);
+    font-weight: 500;
+        line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.url-address:hover,
+.url-address:focus
+{
+    color: var(--nav-text-color);
+    }
 /* Main */
 .hero {
     color: var(--hero-text-color);
@@ -75,6 +98,20 @@ text-align: center;
 letter-spacing: 0.06em;
 }
 
+.button-all {
+    cursor: pointer;
+    color: var(--hero-text-color);
+    background-color:var(--button-color);
+    font-family: 'Roboto';
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+}
+
 .button-portfolio {
     cursor: pointer;
     color: var(--primary-text-color);
@@ -84,7 +121,6 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.88;
 text-align: center;
-letter-spacing: 0.03em;
 }
 .button-portfolio:hover,
 .button-portfolio:focus
@@ -95,61 +131,43 @@ background-color: var(--nav-text-color);
 .image-portfolio {
     background-color: url(/images/portfolio/our-people.jpg) 
 }
-.advantages-list {
-    color: var(--title-text-color);
-font-weight: 700;
-font-size: 14px;
+.advantages-title {
 line-height: 1.14;
-letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .advantages-text {
     color: var(--undertitle-text-color);
-font-weight: 400;
-font-size: 14px;
 line-height: 1.71;
-letter-spacing: 0.03em;
 }
 
-.h2-title {
-    color: var(--primary-text-color);
-    font-weight: 700;
-font-size: 36px;
+.section-title {
+  font-size: 36px;
 line-height: 1.17;
 text-align: center;
-letter-spacing: 0.03em;
 }
 .team-section {
     background-color: var(--secondary-backgroundcolor);
 }
 .team-list {
-color: var(--primary-text-color);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 text-align: center;
-letter-spacing: 0.03em;
 }
 .team-text {
     color: var(--undertitle-text-color);
-font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
 text-align: center;
-letter-spacing: 0.03em;
 }
 .portfolio-title {
- font-weight: 700;
-font-size: 18px;
+ font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
-color: var(--primary-text-color);
 }
 .portfolio-text {
-    font-weight: 400;
 font-size: 16px;
 line-height: 1.88;
-letter-spacing: 0.03em;
 color:var(--undertitle-text-color);
 }
 
@@ -163,37 +181,30 @@ color:var(--undertitle-text-color);
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
-letter-spacing: 0.03em;
+text-decoration: none
 }
 
-.address-footer {
+.maps {
     color:var(--hero-text-color);
     font-style: normal;
    font-weight: 400;
-font-size: 14px;
 line-height: 1.71;
-letter-spacing: 0.03em;
+text-decoration: none
 }
 .mail-footer {
     color: rgba(255, 255, 255, 0.6);
 font-style: normal;
 font-weight: 400;
-font-size: 14px;
 line-height: 1.71;
-letter-spacing: 0.03em;
+text-decoration: none
 }
 
 .tel-footer {
     color: rgba(255, 255, 255, 0.6);
 font-style: normal;
 font-weight: 400;
-font-size: 14px;
 line-height: 24px;
-letter-spacing: 0.03em;
-}
-.address-footer:hover,
-.address-footer:focus {
-    color: var(--nav-text-color)
+text-decoration: none
 }
 .mail-footer:hover,
 .mail-footer:focus {
